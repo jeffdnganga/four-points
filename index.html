@@ -7,12 +7,376 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/01b4b6f929.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Four Points Hotel</h1>
-
-
-
+    <!-- top header starts -->
+    <section class="top-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 ps-5 py-4">
+                    <h3 class="text-info fw-normal">Four Points Hotel</h3>
+                    <p class="text-secondary fs-6 fw-light">Near NextGen Mall, Mombasa Road, Nairobi</p>
+                </div>
+                <div class="col-md-6 pt-5 text-md-end text-sm-center ps-sm-4 pe-md-5">
+                    <ul>
+                        <li class="d-inline pe-sm-3 pe-md-4 pe-lg-5"><i class="fab fa-facebook-f"></i></li>
+                        <li class="d-inline pe-sm-3 pe-md-4 pe-lg-5"><i class="fab fa-linkedin-in"></i></li>
+                        <li class="d-inline pe-sm-3 pe-md-4 pe-lg-5"><i class="fab fa-whatsapp"></i></li>
+                        <li class="d-inline pe-sm-3 pe-md-4 pe-lg-5"><i class="fab fa-instagram"></i></li>
+                        <li class="d-inline pe-sm-3 pe-md-4 pe-lg-5"><i class="fab fa-twitter"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- top header ends -->
+    <!-- navigation bar starts -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light py-4">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Four Points</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fas fa-ellipsis-h"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!-- navigation bar ends -->
+    <!-- slider starts -->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide our-slider" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="image1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-light">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="image2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block bg-success">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="image3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!-- slider ends -->
+    <!-- services section starts -->
+    <section class="services my-5">
+      <div class="container bg-light">
+        <div class="row py-4">
+          <!-- first card starts -->
+          <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
+            <div class="card">
+              <img src="image1.jpg" class="card-img-top" alt="Bed in a Hotel">
+              <div class="card-body">
+                <h4>Room Service</h4>
+                <p>Donec quis metus ac arcu luctus accumsan.</p>
+              </div>
+            </div>
+          </div>
+          <!-- first card ends -->
+          <!-- second card starts -->
+          <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
+            <div class="card">
+              <img src="image2.jpg" class="card-img-top" alt="Bed in a Hotel">
+              <div class="card-body">
+                <h4>Exotic Meals</h4>
+                <p>Donec quis metus ac arcu luctus accumsan.</p>
+              </div>
+            </div>
+          </div>
+          <!-- second card ends -->
+          <!-- third card starts -->
+          <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
+            <div class="card">
+              <img src="image3.jpg" class="card-img-top" alt="Bed in a Hotel">
+              <div class="card-body">
+                <h4>Laundry Services</h4>
+                <p>Donec quis metus ac arcu luctus accumsan.</p>
+              </div>
+            </div>
+          </div>
+          <!-- third card ends -->
+          <!-- fourth card starts -->
+          <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
+            <div class="card">
+              <img src="image1.jpg" class="card-img-top" alt="Bed in a Hotel">
+              <div class="card-body">
+                <h4>24/7 Rigid security</h4>
+                <p>Donec quis metus ac arcu luctus accumsan.</p>
+              </div>
+            </div>
+          </div>
+          <!-- fourth card ends -->
+          <!-- fifth card starts -->
+          <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
+            <div class="card">
+              <img src="image2.jpg" class="card-img-top" alt="Bed in a Hotel">
+              <div class="card-body">
+                <h4>Fitness and Leisure</h4>
+                <p>Donec quis metus ac arcu luctus accumsan.</p>
+              </div>
+            </div>
+          </div>
+          <!-- fifth card ends -->
+          <!-- sixth card starts -->
+          <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
+            <div class="card">
+              <img src="image3.jpg" class="card-img-top" alt="Bed in a Hotel">
+              <div class="card-body">
+                <h4>Room Service</h4>
+                <p>Donec quis metus ac arcu luctus accumsan.</p>
+              </div>
+            </div>
+          </div>
+          <!-- sixth card ends -->
+        </div>
+      </div>
+    </section>
+    <!-- services section ends -->
+    <!-- booking section starts -->
+    <section class="booking pb-5">
+      <div class="container">
+        <h3 class="fw-normal text-center text-light py-5">Book with us</h3>
+        <div class="row g-0 text-center">
+          <!-- first card starts -->
+          <div class="col-md-12 col-lg-4 py-4">
+            <div class="card py-4">
+              <p class="card-text lh-lg pb-5">Beginner <br><span class="fs-1">Free</span></p>
+              <p class="card-text-body pb-5 lh-base">3 Conference Tickets <br>Vip Table<br>Drinks<br>Special PASS<br>VIP Dinner</p>
+              <button type="button" class="btn btn-primary">Book now</button>
+            </div>
+          </div>
+          <!-- first card ends -->
+          <!-- second card starts -->
+          <div class="col-md-12 col-lg-4">
+            <div class="card  bg-primary text-light shadow-lg py-4">
+              </style>
+              <p class="card-text py-4 lh-lg">Beginner <br><span class="fs-1">Free</span></p>
+              <p class="card-text-body pb-5 pt-4 lh-base">3 Conference Tickets <br>Vip Table<br>Drinks<br>Special PASS<br>VIP Dinner</p>
+              <button type="button" class="btn btn-light my-3">Book now</button>
+            </div>
+          </div>
+          <!-- second card ends -->
+          <!-- third card starts -->
+          <div class="col-md-12 col-lg-4 py-4">
+            <div class="card py-4">
+              <p class="card-text lh-lg pb-5">Beginner <br><span class="fs-1">Free</span></p>
+              <p class="card-text-body pb-5 lh-base">3 Conference Tickets <br>Vip Table<br>Drinks<br>Special PASS<br>VIP Dinner</p>
+              <button type="button" class="btn btn-primary">Book now</button>
+            </div>
+          </div>
+          <!-- third card ends -->
+        </div>
+      </div>
+    </section>
+    <!-- booking section ends -->
+    <!-- events section begins -->
+    <section class="events my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-6">
+            <div class="row bg-primary text-light py-4">
+              <i class="far fa-calendar"> 23 APRIL EVENTS CALENDAR</i>
+            </div>
+            <div class="row py-2 bg-light">
+              <div class="col">
+                <img src="image1.jpg" class="event-image w-100" alt="bed">
+              </div>
+              <div class="col text-center pt-4">
+                <p class="time-venue text-dark"><span class="time fs-2">14:00</span><br>Auditorium</p>
+              </div>
+              <div class="col text-center pt-4">
+                <p class="speaker-venue text-secondary"><span class="topic fs-5 text-dark">Business 101</span><br>8 AM - 4 PM<br>Speaker: Daniel Hill</p>
+              </div>
+            </div>
+            <div class="row py-2 bg-light">
+              <div class="col">
+                <img src="image1.jpg" class="event-image w-100" alt="bed">
+              </div>
+              <div class="col text-center pt-4">
+                <p class="time-venue text-dark"><span class="time fs-2">15:00</span><br>Auditorium</p>
+              </div>
+              <div class="col text-center pt-4">
+                <p class="speaker-venue text-secondary"><span class="topic fs-5 text-dark">About technology</span><br>8 AM - 4 PM<br>Speaker: Daniel Hill</p>
+              </div>
+            </div>
+            <div class="row py-2 bg-light">
+              <div class="col">
+                <img src="image1.jpg" class="event-image w-100" alt="bed">
+              </div>
+              <div class="col text-center pt-4">
+                <p class="time-venue text-dark"><span class="time fs-2">17:00</span><br>Auditorium</p>
+              </div>
+              <div class="col text-center pt-4">
+                <p class="speaker-venue text-secondary"><span class="topic fs-5 text-dark">Conference calls</span><br>8 AM - 4 PM<br>Speaker: Daniel Hill</p>
+              </div>
+            </div>
+            <div class="row py-2 bg-light">
+              <div class="col">
+                <img src="image1.jpg" class="event-image w-100" alt="bed">
+              </div>
+              <div class="col text-center pt-4">
+                <p class="time-venue text-dark"><span class="time fs-2">20:00</span><br>Auditorium</p>
+              </div>
+              <div class="col text-center pt-4">
+                <p class="speaker-venue text-secondary"><span class="topic fs-5 text-dark">Drinks and dinner</span><br>8 AM - 4 PM<br>Speaker: Daniel Hill</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-6 ">
+            <div class="row bg-primary text-light py-4">
+              <i class="far fa-calendar"> 22 APRIL EVENTS CALENDAR</i>
+            </div>
+            <div class="row py-2 bg-light">
+              <div class="col">
+                <img src="image1.jpg" class="event-image w-100" alt="bed">
+              </div>
+              <div class="col text-center pt-4">
+                <p class="time-venue text-dark"><span class="time fs-2">14:00</span><br>Auditorium</p>
+              </div>
+              <div class="col text-center pt-4">
+                <p class="speaker-venue text-secondary"><span class="topic fs-5 text-dark">Business 101</span><br>8 AM - 4 PM<br>Speaker: Daniel Hill</p>
+              </div>
+            </div>
+            <div class="row py-2 bg-light">
+              <div class="col">
+                <img src="image1.jpg" class="event-image w-100" alt="bed">
+              </div>
+              <div class="col text-center pt-4">
+                <p class="time-venue text-dark"><span class="time fs-2">15:00</span><br>Auditorium</p>
+              </div>
+              <div class="col text-center pt-4">
+                <p class="speaker-venue text-secondary"><span class="topic fs-5 text-dark">About technology</span><br>8 AM - 4 PM<br>Speaker: Daniel Hill</p>
+              </div>
+            </div>
+            <div class="row py-2 bg-light">
+              <div class="col">
+                <img src="image1.jpg" class="event-image w-100" alt="bed">
+              </div>
+              <div class="col text-center pt-4">
+                <p class="time-venue text-dark"><span class="time fs-2">17:00</span><br>Auditorium</p>
+              </div>
+              <div class="col text-center pt-4">
+                <p class="speaker-venue text-secondary"><span class="topic fs-5 text-dark">Conference calls</span><br>8 AM - 4 PM<br>Speaker: Daniel Hill</p>
+              </div>
+            </div>
+            <div class="row py-2 bg-light">
+              <div class="col">
+                <img src="image1.jpg" class="event-image w-100" alt="bed">
+              </div>
+              <div class="col text-center pt-4">
+                <p class="time-venue text-dark"><span class="time fs-2">20:00</span><br>Auditorium</p>
+              </div>
+              <div class="col text-center pt-4">
+                <p class="speaker-venue text-secondary"><span class="topic fs-5 text-dark">Drinks and dinner</span><br>8 AM - 4 PM<br>Speaker: Daniel Hill</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- events section ends -->
+    <!-- ticket section begins -->
+    <section class="tickets text-center py-5">
+      <p class="ticket-text fs-1 text-light pt-4">Get your ticket now!</p>
+      <button type="button" class="btn btn-primary">Find out more</button>
+    </section>
+    <!-- ticket section ends-->
+    <!-- footer section begins -->
+    <section class="footer p-5">
+      <div class="row p-5">
+        <div class="col">
+          <p class="footer-text lh-1 pb-4 fs-1 text-info">Four Points<br><span class="fs-6 text-light">A home away from home</span></p>
+          <p class="text-secondary">Donec quis metus ac arcu luctus accumsan. Nunc in justo tincidunt, sodales nunc id, finibus nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+        </div>
+        <div class="col">
+          <ul class="footer-list">
+            <li><a class="list text-secondary fw-bold" href="#">About Us</a></li>
+            <li><a class="list text-secondary fw-bold" href="#">Services</a></li>
+            <li><a class="list text-secondary fw-bold" href="#">Speakers</a></li>
+            <li><a class="list text-secondary fw-bold" href="#">Event Dates</a></li>
+            <li><a class="list text-secondary fw-bold" href="#">Information</a></li>
+            <li><a class="list text-secondary fw-bold" href="#">Calender</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul class="footer-list">
+            <li><a class="list text-secondary fw-bold" href="#">Logistics</a></li>
+            <li><a class="list text-secondary fw-bold" href="#">Our Partners</a></li>
+            <li><a class="list text-secondary fw-bold" href="#">Testimonials</a></li>
+            <li><a class="list text-secondary fw-bold" href="#">Price Plans</a></li>
+            <li><a class="list text-secondary fw-bold" href="#">News</a></li>
+            <li><a class="list text-secondary fw-bold" href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul class="footer-list">
+            <li><a class="list text-secondary fw-bold" href="#">About Us</a></li>
+            <li><a class="list text-secondary fw-bold" href="#">Services</a></li>
+            <li><a class="list text-secondary fw-bold" href="#">Speakers</a></li>
+            <li><a class="list text-secondary fw-bold" href="#">Event Dates</a></li>
+            <li><a class="list text-secondary fw-bold" href="#">Information</a></li>
+            <li><a class="list text-secondary fw-bold" href="#">Calender</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- footer section ends -->
+    <!-- base section starts -->
+    <section class="base p-5 bg-dark">
+      <div class="row mx-4 pe-4 text-center">
+        <div class="col-md-12 col-lg-4">
+          <p class="text-light fs-5">Follow us on social media</p>
+        </div>
+        <div class="col-md-12 col-lg-4 pt-1">
+          <ul class="base-logos">
+            <li class="d-inline pe-sm-3 pe-md-4 pe-lg-5 text-light"><i class="fab fa-facebook-f"></i></li>
+            <li class="d-inline pe-sm-3 pe-md-4 pe-lg-5 text-light"><i class="fab fa-linkedin-in"></i></li>
+            <li class="d-inline pe-sm-3 pe-md-4 pe-lg-5 text-light"><i class="fab fa-whatsapp"></i></li>
+            <li class="d-inline pe-sm-3 pe-md-4 pe-lg-5 text-light"><i class="fab fa-instagram"></i></li>
+            <li class="d-inline pe-sm-3 pe-md-4 pe-lg-5 text-light"><i class="fab fa-twitter"></i></li>
+        </ul>
+        </div>
+        <div class="col-md-12 col-lg-4 pt-1 pe-4">
+          <ul class="contact-sitemap-privacy">
+            <li class="d-inline fs-6 text-light border-end border-light border-2 px-2">Contact us</li>
+            <li class="d-inline fs-6 text-light border-end border-light border-2 px-2">Sitemap</li>
+            <li class="d-inline fs-6 text-light px-2">Privacy</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- base section ends -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>

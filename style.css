@@ -1,0 +1,56 @@
+.our-slider img{
+    height: 70vh;
+}
+.services img:hover{
+    opacity: .5;
+}
+.services .card:hover{
+    box-shadow: 5px 5px rgba(0, 183, 255, 0.26);
+}
+.services .card .card-body:hover{
+    background-color: rgba(65, 105, 225, 0.589);
+    color: seashell;
+}
+.booking{
+    background-image: url('image1.jpg');
+    background-attachment: fixed;
+    min-height: 40vh;
+}
+.booking .card{
+    line-height: 50px;
+}
+.booking .card .card-text-body{
+    line-height: 35px;
+}
+.booking .card .btn{
+    max-width: 50%;
+    margin: auto;
+}
+.tickets{
+    background-image: url('image2.jpg');
+    background-attachment: scroll;
+    min-height: 300px;
+}
+.events img{
+    border-radius: 50%;
+}
+.events img:hover{
+    transform: scale(1.5);
+    transition: transform 1s;
+}
+.footer{
+    background-color: rgb(0, 0, 44);
+    min-height: 40vh;
+}
+.footer .footer-list li a{
+    text-decoration: none;
+}
+.footer .footer-list{
+    line-height: 38px;
+}
+.footer .footer-list li{
+    list-style-type: none;
+}
+.base .fab{
+    margin-right: 10px;
+}
